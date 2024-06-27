@@ -1,0 +1,35 @@
+html,body{
+    width:100%;
+    height: 100%;
+}
+td{
+    width: 40px;
+}
+.btn{
+    width: 100%;
+    height: 30px;
+}
+.btneq{
+    width: 100%;
+    height: 63px;
+}
+.txt{
+    height: 35px;
+    width: 230px;
+    border: 0px;
+    text-align: right;
+    font-size: 25px;
+    padding-right: 5px;
+    color: #aaa;
+
+}
+.txt0{
+    height: 15px;
+    width: 230px;
+    border: 0px;
+    text-align: right;
+    font-size: 1%;
+    padding-right: 5px;
+    color: #aaa;
+
+}

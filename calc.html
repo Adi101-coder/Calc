@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type='text/javascript'src="script.js"></script>
+</head>
+<br><br>
+<br><br>
+<body>
+    <table align="center" border="1">
+        <tr><td>
+            <table align="center" border="0">
+                <tr>
+                    <td colspan='5'>
+                    <input class="txt0" id="t2" value=" " readonly/>
+                    <input class="txt" id="t1" value="0" readonly/>
+                    <input type="hidden" id="t3" value=" " />
+                    </td>
+                </tr>        
+            </table>
+        </td></tr>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellspacing=" ">
+                        <tr>
+                            <td><input type="button" class="btn" value="Sin" onclick="sin()"/></td>
+                            <td><input type="button" class="btn" value="Cos" onclick="cos()"/></td>
+                            <td><input type="button" class="btn" value="Tan" onclick="tan()"/></td>
+                            <td><input type="button" class="btn" value="log" onclick="log()"/></td>
+                            <td><input type="button" class="btn" value="ln" onclick="ln()"/></td>
+
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn" value="e^x" onclick="exp()"/></td>
+                            <td><input type="button" class="btn" value="x!" onclick="fact()"/></td>
+                            <td><input type="button" class="btn" value="Pi" onclick="pi()"/></td>
+                            <td><input type="button" class="btn" value="x^2" onclick="sq()"/></td>
+                            <td><input type="button" class="btn" value="x^3" onclick="cube()"/></td>
+
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn" value="<--" onclick="bkspc()"/></td>
+                            <td><input type="button" class="btn" value="CE" onclick="init()"/></td>
+                            <td><input type="button" class="btn" value="C" onclick="init()"/></td>
+                            <td><input type="button" class="btn" value="Inv" onclick="tgl()"/></td>
+                            <td><input type="button" class="btn" value="Sqrt" onclick="sqrt()"/></td>
+                            </tr>
+                        <tr>
+                            <td><input type="button" class="btn" value="7" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="8" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="9" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="/" onclick="operate(this.value)"></td>
+                            <td><input type="button" class="btn" value="%" onclick="operate(this.value)"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn" value="4" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="5" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="6" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="*" onclick="operate(this.value)"/></td>
+                            <td><input type="button" class="btn" value="1/x" onclick="inv()"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn" value="1" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="2" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="3" onclick="addText(this.value)"/></td>
+                            <td><input type="button" class="btn" value="-" onclick="operate(this.value)"/></td>
+                            <td rowspan="2"><input type="button" class="btneq" value="=" onclick="operate(this.value)"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="button" class="btn" value="0" onclick="addtext(this.value)"/></td>
+                            <td><input type="button" class="btn" value="." onclick="addtext(this.value)"/></td>
+                            <td><input type="button" class="btn" value="+" onclick="operate(this.value)"/></td>
+                        </tr>
+                    </table>
+                    </td>
+                    </tr>
+                    </table>
+                    </body>
+                    </html>
+                    
